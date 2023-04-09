@@ -1,6 +1,8 @@
 import pandas as pd
+import os
 
-def load_timeseries_products():
+
+def load_data():
     """Load the timeseries products dataset.
 
     Returns
@@ -9,7 +11,6 @@ def load_timeseries_products():
         The timeseries products dataset.
     """
     return pd.read_csv(
-        os.path.join(os.path.dirname(__file__), 'data/timeseries_products.csv'),
-        parse_dates=['date'],
-        index_col=['date'],
+        os.path.join(os.path.dirname(__file__),
+                     'data/timeseries_products.csv'),
     )
