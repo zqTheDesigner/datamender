@@ -11,5 +11,6 @@ def load_data():
         The timeseries products dataset.
     """
     return pd.read_csv(
-        './data/timeseries_products.csv',
+        os.path.join(os.path.dirname(__file__),
+                     'data/timeseries_products.csv'),
     )
