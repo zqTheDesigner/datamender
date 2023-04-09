@@ -11,8 +11,8 @@ Reference: https://stackoverflow.com/questions/20101834/pip-install-from-git-rep
 https://wheel.readthedocs.io/en/stable/quickstart.html
 
 ```bash
-python -m pip install build
-python -m build --wheel
+python3 -m pip install build
+python3 -m build --wheel
 ```
 
 

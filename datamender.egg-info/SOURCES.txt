@@ -8,3 +8,4 @@ datamender.egg-info/dependency_links.txt
 datamender.egg-info/top_level.txt
 datamender/datasets/__init__.py
 datamender/datasets/timeseries_products.py
+datamender/datasets/data/timeseries_products.csv

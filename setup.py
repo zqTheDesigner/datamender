@@ -7,6 +7,7 @@ setup(
     author='zqthedesigner', 
     author_email='zqthedesigner@gmail.com',
     packages=find_packages(),
-    package_data={'': ['datamender/datasets/data/*']},
+    package_data={'': ['datasets/data/*.csv']},
+    include_package_data=True,
     long_description=open('README.md').read()
 )
