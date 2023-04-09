@@ -8,7 +8,11 @@ pip install git+https://github.com/zqTheDesigner/datamender
 Reference: https://stackoverflow.com/questions/20101834/pip-install-from-git-repo-branch
 
 # Build egg-info
+https://wheel.readthedocs.io/en/stable/quickstart.html
+
 ```bash
-python setup.py egg_info
-```	
+python -m pip install build
+python -m build --wheel
+```
+
 
