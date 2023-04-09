@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: datamender
+Version: 0.0.0
+Author: zqthedesigner
+Author-email: zqthedesigner@gmail.com
+
+# datamender
+
+### Install with pip
+```bash
+pip install git+https://github.com/zqTheDesigner/datamender
+```
+
+Reference: https://stackoverflow.com/questions/20101834/pip-install-from-git-repo-branch
+
+# Build egg-info
+```bash
+python setup.py egg_info
+```	
+

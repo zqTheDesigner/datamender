@@ -1,0 +1,10 @@
+README.md
+setup.py
+datamender/__init__.py
+datamender/hw.py
+datamender.egg-info/PKG-INFO
+datamender.egg-info/SOURCES.txt
+datamender.egg-info/dependency_links.txt
+datamender.egg-info/top_level.txt
+datamender/datasets/__init__.py
+datamender/datasets/timeseries_products.py
